@@ -15,26 +15,26 @@
 ### 安装本仓库全部 skill
 
 ```bash
-npx skills add <你的GitHub用户名>/dugujun-ai-skills
+npx skills add dugujun3-cloud/dugujun-ai-skills
 ```
 
 ### 只装「别陪聊，要能交」
 
 ```bash
-npx skills add <你的GitHub用户名>/dugujun-ai-skills@ai-delivery-over-chat
+npx skills add dugujun3-cloud/dugujun-ai-skills@ai-delivery-over-chat
 ```
 
 ### 装到全局（所有项目可用）
 
 ```bash
-npx skills add <你的GitHub用户名>/dugujun-ai-skills@ai-delivery-over-chat -g
+npx skills add dugujun3-cloud/dugujun-ai-skills@ai-delivery-over-chat -g
 ```
 
 ### 指定 Agent
 
 ```bash
-npx skills add <你的GitHub用户名>/dugujun-ai-skills@ai-delivery-over-chat -a claude-code
-npx skills add <你的GitHub用户名>/dugujun-ai-skills@ai-delivery-over-chat -a cursor
+npx skills add dugujun3-cloud/dugujun-ai-skills@ai-delivery-over-chat -a claude-code
+npx skills add dugujun3-cloud/dugujun-ai-skills@ai-delivery-over-chat -a cursor
 ```
 
 安装前请打开本仓库阅读 `SKILL.md`（第三方 skill 拥有与 Agent 相同的文件权限）。
