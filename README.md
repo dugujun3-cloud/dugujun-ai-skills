@@ -1,6 +1,6 @@
 # dugujun-ai-skills
 
-独孤菌公开 Agent Skills。从运营 / AI 认知知识库蒸馏，可一键安装到 Claude Code、Cursor、Codex、Grok 等支持 [Agent Skills](https://skills.sh/) 的工具。
+卢国军公开的 Agent Skills。基于使用 AI Agent 的实践经验整理，可安装到 Claude Code、Cursor、Codex、Grok 等支持 [Agent Skills](https://skills.sh/) 的工具。
 
 ## 包含的 skill
 
@@ -62,9 +62,9 @@ dugujun-ai-skills/
             └── sources.md
 ```
 
-## 来源
+## 关于
 
-蒸馏自独孤菌知识库 AI 认知实践成文（以《运营人用AI干活更累，错的不是模型，而是……》为锚点），详见 skill 内 `references/sources.md`。
+基于卢国军使用 AI Agent 的经验形成。说明见 skill 内 `references/sources.md`。
 
 ## License
 

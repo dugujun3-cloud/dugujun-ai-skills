@@ -6,8 +6,8 @@ description: >
   触发：用AI更累、怪模型不够聪明、想换更强模型、AI工具费白花、半成品要自己收尾、
   陪聊交不了活、运营 AI 工作流诊断、/ai-delivery-over-chat。
 metadata:
-  author: dugujun
-  version: "1.0.0"
+  author: 卢国军
+  version: "1.0.1"
   argument-hint: "[可选：描述你最近一次用 AI 干活却更累的场景]"
 ---
 
@@ -128,4 +128,4 @@ API/订阅费看着不贵时，提醒：半截工程一返工，时间和钱一�
 
 - 框架与判据细节：`references/framework.md`
 - 快速自检表：`references/self-check.md`
-- 知识来源说明：`references/sources.md`
+- 关于本 skill：`references/sources.md`
