@@ -1,0 +1,5 @@
+interface:
+  display_name: "会员活动增量 ROI 体检"
+  short_description: "核对会员活动的增量价值、完整成本、证据等级与继续条件"
+  default_prompt: "Use $membership-activity-roi-checker to check whether this member campaign created incremental value and what to do next."
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "User Operations Playbook"
+  short_description: "Diagnose full-lifecycle user operations with measurable, bounded plans"
+  default_prompt: "Use $user-operations-playbook to diagnose this user-operations problem, route the relevant domain modules, and produce an evidence-based plan with metrics, owners, guardrails, and stop conditions."

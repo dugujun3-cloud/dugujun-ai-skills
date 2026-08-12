@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "mode": "combined",
+  "decision_question": "哪个留存或复购漏损正在影响观察窗口价值，下一步验证什么？",
+  "business": {
+    "model": "subscription",
+    "product_or_service": "合成订阅服务",
+    "cohort_entry_event": "首次有效付费",
+    "value_event": "完成核心服务",
+    "ltv_basis": "contribution"
+  },
+  "observation": {
+    "window": "90d",
+    "as_of": "2026-07-25",
+    "maturity_rule": "进入Cohort后满90天",
+    "all_cohorts_mature": true
+  },
+  "cohorts": [
+    {
+      "name": "synthetic-2026-04",
+      "eligible_users": 1000,
+      "retained_users": 360,
+      "repeat_buyers": 220,
+      "revenue": 120000,
+      "refunds": 8000,
+      "variable_costs": 52000,
+      "acquisition_cost": 30000,
+      "mature": true,
+      "synthetic": true
+    }
+  ],
+  "known_changes": [],
+  "constraints": {
+    "contact_permission": true,
+    "service_capacity": "需由业务填写",
+    "margin_floor": null
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 面试实战教练"
+  short_description: "用真实证据完成岗位拆解、风险追问、压力模拟与结果校准"
+  default_prompt: "Use $ai-interview-copilot to audit hard gates, build evidence-backed answers, run one-question-at-a-time pressure interviews, or review and calibrate my interview transcript."

@@ -1,0 +1,7 @@
+interface:
+  display_name: "复购与 LTV 诊断 Starter"
+  short_description: "用匿名聚合数据检查复购、Cohort成熟度和观察窗口价值"
+  default_prompt: "使用 $retention-ltv-diagnostic-starter，诊断这组匿名复购与观察窗口价值数据。"
+
+policy:
+  allow_implicit_invocation: false

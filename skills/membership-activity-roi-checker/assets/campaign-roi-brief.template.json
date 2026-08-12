@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "decision_question": "这次活动是否产生了足以支持续预算的增量结果？",
+  "objective": "reactivation_value",
+  "result_name": "成熟观察窗内完成复购的会员",
+  "currency": "CNY",
+  "observation_window": "",
+  "maturity_rule": "",
+  "population": {
+    "treatment_eligible": null,
+    "treatment_results": null,
+    "counterfactual": {
+      "type": "none",
+      "control_eligible": null,
+      "control_results": null,
+      "baseline_result_rate": null
+    }
+  },
+  "economics": {
+    "treatment_net_revenue": null,
+    "treatment_variable_costs": null,
+    "comparison_net_revenue": null,
+    "comparison_variable_costs": null,
+    "baseline_contribution_per_eligible": null,
+    "contribution_value_per_result": null,
+    "double_count_checked": false
+  },
+  "costs": {
+    "incentives": 0,
+    "media": 0,
+    "technology": 0,
+    "incremental_labor": 0,
+    "fulfillment": 0,
+    "fraud_and_abnormal_loss": 0,
+    "other": 0
+  },
+  "business_thresholds": {
+    "max_cost_per_incremental_result": null,
+    "min_net_incremental_value": null,
+    "min_incremental_roi": null
+  },
+  "guardrails": {
+    "refund_rate": null,
+    "complaint_rate": null,
+    "cancellation_rate": null,
+    "capacity_breached": false,
+    "privacy_or_compliance_issue": false
+  },
+  "known_changes": [],
+  "privacy": {
+    "aggregate_only": true,
+    "contains_direct_identifiers": false
+  },
+  "synthetic": false
+}
