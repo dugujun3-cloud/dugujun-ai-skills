@@ -1,0 +1,4 @@
+interface:
+  display_name: "得到大脑博主批量转写"
+  short_description: "将得到大脑博主内容批量转为保留原标题且可续跑的独立笔记"
+  default_prompt: "使用 $getnote-blogger-batch-import 将指定得到大脑知识库中的博主内容批量转成独立笔记。"

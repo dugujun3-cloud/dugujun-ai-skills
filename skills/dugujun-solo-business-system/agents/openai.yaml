@@ -1,0 +1,7 @@
+interface:
+  display_name: "独孤菌一人公司独立主控"
+  short_description: "独立管理一人公司立项、验证、交付、产品化和复盘，不接管其他工作流"
+  default_prompt: "直接描述你的一人公司当前问题；若自动路由错误，再用 $dugujun-solo-business-system 强制切换。"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "独孤菌账号分析"
+  short_description: "独立诊断内容账号数据、定位、增长问题和下一阶段实验"
+  default_prompt: "使用 $dugujun-account-analysis 分析这个内容账号，并给出证据化诊断和下一阶段实验。"

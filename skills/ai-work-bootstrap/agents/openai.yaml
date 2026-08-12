@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI 工作启动器"
+  short_description: "把模糊烦恼推进为可验收、可复用的真实 AI 工作闭环"
+  default_prompt: "直接描述你最头疼、不想做的事；若自动路由错误，再用 $ai-work-bootstrap 强制纠正。"
+
+policy:
+  allow_implicit_invocation: true

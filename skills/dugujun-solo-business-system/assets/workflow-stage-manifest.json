@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "workflow_type": "solo_business_end_to_end",
+  "stages": [
+    {
+      "id": "00_scope_constraints",
+      "title": "范围、生活与资源约束",
+      "artifacts": [
+        {"id": "decision_brief", "path": "00_scope_constraints/decision_brief.json", "kind": "file", "required": true},
+        {"id": "constraints", "path": "00_scope_constraints/constraints.md", "kind": "file", "required": true},
+        {"id": "evidence_ledger", "path": "00_scope_constraints/evidence_ledger.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "10_positioning",
+      "title": "能力、定位与取舍",
+      "artifacts": [
+        {"id": "capability_positioning_matrix", "path": "10_positioning/capability_positioning_matrix.md", "kind": "file", "required": true},
+        {"id": "positioning_decision", "path": "10_positioning/positioning_decision.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "20_customer_evidence",
+      "title": "客户问题与证据",
+      "artifacts": [
+        {"id": "customer_problem_evidence", "path": "20_customer_evidence/customer_problem_evidence.md", "kind": "file", "required": true},
+        {"id": "interview_guide", "path": "20_customer_evidence/interview_guide.md", "kind": "file", "required": true},
+        {"id": "evidence_log", "path": "20_customer_evidence/evidence_log.jsonl", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "30_offer_mvp",
+      "title": "Offer 与最小可行产品",
+      "artifacts": [
+        {"id": "offer_card", "path": "30_offer_mvp/offer_card.md", "kind": "file", "required": true},
+        {"id": "mvp_experiment", "path": "30_offer_mvp/mvp_experiment.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "40_market_validation",
+      "title": "市场与付费验证",
+      "artifacts": [
+        {"id": "validation_plan", "path": "40_market_validation/validation_plan.md", "kind": "file", "required": true},
+        {"id": "validation_results", "path": "40_market_validation/validation_results.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "50_pilot_delivery",
+      "title": "首批交付与验收",
+      "artifacts": [
+        {"id": "delivery_sop", "path": "50_pilot_delivery/delivery_sop.md", "kind": "file", "required": true},
+        {"id": "acceptance_rubric", "path": "50_pilot_delivery/acceptance_rubric.md", "kind": "file", "required": true},
+        {"id": "pilot_retrospective", "path": "50_pilot_delivery/pilot_retrospective.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "60_pricing_economics",
+      "title": "定价与单位经济性",
+      "artifacts": [
+        {"id": "pricing_economics", "path": "60_pricing_economics/pricing_economics.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "70_acquisition_trust",
+      "title": "信任与获客",
+      "artifacts": [
+        {"id": "trust_acquisition_path", "path": "70_acquisition_trust/trust_acquisition_path.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "80_systemization_productization",
+      "title": "系统化与产品形态",
+      "artifacts": [
+        {"id": "product_form_decision", "path": "80_systemization_productization/product_form_decision.md", "kind": "file", "required": true},
+        {"id": "task_allocation", "path": "80_systemization_productization/task_allocation.md", "kind": "file", "required": true},
+        {"id": "quality_gates", "path": "80_systemization_productization/quality_gates.md", "kind": "file", "required": true},
+        {"id": "exception_log", "path": "80_systemization_productization/exception_log.md", "kind": "file", "required": true}
+      ]
+    },
+    {
+      "id": "90_scale_transition_review",
+      "title": "产品阶梯、转型与周期复盘",
+      "artifacts": [
+        {"id": "product_ladder", "path": "90_scale_transition_review/product_ladder.md", "kind": "file", "required": true},
+        {"id": "transition_gate", "path": "90_scale_transition_review/transition_gate.md", "kind": "file", "required": true},
+        {"id": "cycle_review", "path": "90_scale_transition_review/cycle_review.md", "kind": "file", "required": true},
+        {"id": "next_cycle_decision", "path": "90_scale_transition_review/next_cycle_decision.md", "kind": "file", "required": true}
+      ]
+    }
+  ]
+}
