@@ -1,6 +1,6 @@
 # dugujun-ai-skills
 
-卢国军公开的 Agent Skills。基于使用 AI Agent 的实践经验整理，可安装到 Claude Code、Cursor、Codex、Grok 等支持 [Agent Skills](https://skills.sh/) 的工具。
+独孤菌公开的 Agent Skills。基于使用 AI Agent 的实践经验整理，可安装到 Claude Code、Cursor、Codex、Grok 等支持 [Agent Skills](https://skills.sh/) 的工具。
 
 部分 skill 同步用于小红书创作服务平台（Red Skill）公开领取。
 
@@ -92,4 +92,4 @@ dugujun-ai-skills/
 
 ## 关于
 
-基于卢国军使用 AI Agent 的实践经验整理。
+基于独孤菌使用 AI Agent 的实践经验整理。
