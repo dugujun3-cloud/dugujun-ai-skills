@@ -29,6 +29,7 @@
 | Skill | 作用 |
 |-------|------|
 | **getnote-blogger-batch-import** | 得到大脑博主内容批量导出为 Markdown / ZIP |
+| **expertise-to-tool** | 把领域专家的方法论共创成单文件 HTML 工具：逐题深问对焦 + 规则库提炼 + 分支问卷规则引擎 + surge 上线 |
 
 ## 安装
 
@@ -80,7 +81,8 @@ dugujun-ai-skills/
     ├── user-operations-playbook/
     ├── dugujun-account-analysis/
     ├── dugujun-solo-business-system/
-    └── getnote-blogger-batch-import/
+    ├── getnote-blogger-batch-import/
+    └── expertise-to-tool/
 ```
 
 ## 许可说明
