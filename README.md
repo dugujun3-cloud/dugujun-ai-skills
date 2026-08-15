@@ -30,6 +30,7 @@
 |-------|------|
 | **getnote-blogger-batch-import** | 得到大脑博主内容批量导出为 Markdown / ZIP |
 | **expertise-to-tool** | 把领域专家的方法论共创成单文件 HTML 工具：逐题深问对焦 + 规则库提炼 + 分支问卷规则引擎 + surge 上线 |
+| **diagnostic-product-builder** | 把一套判断做成三层诊断产品：网页自测 + 一对一校准 + 90 天手册 |
 
 ## 安装
 
@@ -48,6 +49,7 @@ npx skills add dugujun3-cloud/dugujun-ai-skills@ai-delivery-over-chat
 npx skills add dugujun3-cloud/dugujun-ai-skills@user-operations-playbook
 npx skills add dugujun3-cloud/dugujun-ai-skills@dugujun-solo-business-system
 npx skills add dugujun3-cloud/dugujun-ai-skills@ai-work-bootstrap
+npx skills add dugujun3-cloud/dugujun-ai-skills@diagnostic-product-builder
 ```
 
 ### 全局 / 指定 Agent
@@ -82,7 +84,8 @@ dugujun-ai-skills/
     ├── dugujun-account-analysis/
     ├── dugujun-solo-business-system/
     ├── getnote-blogger-batch-import/
-    └── expertise-to-tool/
+    ├── expertise-to-tool/
+    └── diagnostic-product-builder/
 ```
 
 ## 许可说明
