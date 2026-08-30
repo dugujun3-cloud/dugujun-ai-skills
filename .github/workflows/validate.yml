@@ -1,0 +1,31 @@
+name: Validate public skills
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate public repository
+        run: python3 scripts/validate_repo.py
+
+      - name: Run repository tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Compile Python sources
+        run: python3 -m compileall -q skills scripts tests
