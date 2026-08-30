@@ -23,6 +23,6 @@
     {"name":"getnote-blogger-batch-import","category":"knowledge-tools","summary_zh":"把得到大脑博主内容可恢复地批量导出和导入。","maturity":"beta","source_status":"sync-audit-required","license":"MIT","install_selector":"getnote-blogger-batch-import"},
     {"name":"membership-activity-roi-checker","category":"user-operations","summary_zh":"检查会员活动的增量 ROI 和预算决策条件。","maturity":"stable","source_status":"current","license":"MIT","install_selector":"membership-activity-roi-checker"},
     {"name":"retention-ltv-diagnostic-starter","category":"user-operations","summary_zh":"诊断复购、留存、观察窗口价值和实验条件。","maturity":"stable","source_status":"build-audit-required","license":"MIT","install_selector":"retention-ltv-diagnostic-starter"},
-    {"name":"user-operations-playbook","category":"user-operations","summary_zh":"设计覆盖用户全生命周期的可测量运营系统。","maturity":"stable","source_status":"sync-audit-required","license":"Apache-2.0","install_selector":"user-operations-playbook"}
+    {"name":"user-operations-playbook","category":"user-operations","summary_zh":"设计覆盖用户全生命周期的可测量运营系统。","maturity":"stable","source_status":"current","license":"Apache-2.0","install_selector":"user-operations-playbook","third_party_notice":"skills/user-operations-playbook/THIRD_PARTY_NOTICES.md"}
   ]
 }

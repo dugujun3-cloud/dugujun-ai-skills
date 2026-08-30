@@ -1,4 +1,4 @@
 User Operations Playbook
 Copyright 2026 Dugujun
 
-This product includes only original abstractions, documentation, scripts, and synthetic examples contained in this repository. Excluded third-party and private source materials are not part of the licensed work.
+The core Playbook contains original abstractions, documentation, scripts, and synthetic examples. The lifecycle-conversion adaptation acknowledges an MIT-licensed upstream task taxonomy; see THIRD_PARTY_NOTICES.md. No private source materials are included.

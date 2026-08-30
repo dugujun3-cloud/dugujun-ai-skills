@@ -10,7 +10,7 @@
 
 | Skill | 成熟度 | 适合解决什么 | 公开真源状态 |
 | --- | --- | --- | --- |
-| [user-operations-playbook](skills/user-operations-playbook/) | Stable | 用户全生命周期、增长、留存、会员、CRM 和客户成功 | 待同步审计 |
+| [user-operations-playbook](skills/user-operations-playbook/) | Stable | 用户全生命周期、增长、留存、会员、CRM 和客户成功 | 已对齐 |
 | [ai-work-bootstrap](skills/ai-work-bootstrap/) | Stable | 把模糊、拖延的工作推进为可验收任务 | 已对齐 |
 | [ai-interview-copilot](skills/ai-interview-copilot/) | Stable | 证据驱动的面试准备、模拟和复盘 | 已对齐 |
 | [retention-ltv-diagnostic-starter](skills/retention-ltv-diagnostic-starter/) | Stable | 复购、留存、观察窗口价值与实验诊断 | 构建审计 |

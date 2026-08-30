@@ -10,10 +10,12 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 - Dependency-free repository validator and regression tests.
 - GitHub Actions validation for pull requests and main.
 - Security, contribution, Issue and Pull Request guidance.
+- `user-operations-playbook` lifecycle and conversion adaptation reference with upstream MIT attribution.
 
 ### Changed
 
 - Reframed the README as a public product catalog and trusted installation entrypoint.
+- Shortened the `user-operations-playbook` discovery description, preserved implicit invocation, and marked its public source current after release validation.
 
 ### Not changed
 

@@ -1,6 +1,6 @@
 ---
 name: user-operations-playbook
-description: Diagnose and design measurable user-operations systems across goals and metrics, insight and VOC, identity and tags, segmentation and lifecycle, acquisition, activation and onboarding, engagement and growth, retention and recall, conversion and repurchase, referral, membership, private-domain and community, content and CRM journeys, campaigns and incentives, LTV/attribution/modeling/experiments, B2B customer success, platform and industry adaptation, service recovery, organization and risk. Use for 用户运营、增长拉新、激活、活跃、留存召回、转化复购、裂变推荐、会员积分、私域社群、活动优惠、自动化触达、数据标签、客户成功与运营体系问题。
+description: Design measurable user-operations and growth systems. Use for 用户分层与生命周期、拉新激活、活跃留存、召回复购、裂变会员、私域社群、CRM、LTV、触达实验和客户成功。不用于普通内容写作或泛商业模式问诊。
 ---
 
 # User Operations Playbook
@@ -43,6 +43,7 @@ description: Diagnose and design measurable user-operations systems across goals
 17. 事件与数据基础、归因、模型、监控和测量治理：[17-data-foundation-modeling-and-measurement.md](references/17-data-foundation-modeling-and-measurement.md)。
 18. B2B 客户成功、平台/行业适配、VOC、服务补救、组织和风险：[18-b2b-platform-industry-and-organization.md](references/18-b2b-platform-industry-and-organization.md)。
 19. 留存/复购与 Cohort LTV 联合诊断、价值桥和最小验证：[19-retention-ltv-diagnostic.md](references/19-retention-ltv-diagnostic.md)。
+20. 第三方生命周期与转化框架适配，包括 onboarding、流失、推荐、邮件、付费墙、营销心理、A/B 测试、分析和 CRO：[20-lifecycle-conversion-adaptation.md](references/20-lifecycle-conversion-adaptation.md)。
 
 需要正式交付物时读取 [deliverable-templates.md](assets/deliverable-templates.md)。结构化 brief 可运行 `scripts/validate_brief.py` 检查。
 
