@@ -163,6 +163,9 @@ def validate_repo(root: Path = ROOT) -> list[str]:
                 errors.append(f"manifest: {name} install_selector must match name")
             if not entry.get("summary_zh") or not entry.get("license"):
                 errors.append(f"manifest: {name} requires summary_zh and license")
+            notice = entry.get("third_party_notice")
+            if notice and not (ROOT / str(notice)).is_file():
+                errors.append(f"manifest: {name} third_party_notice is missing")
 
         skill_dirs = sorted(path for path in SKILLS_ROOT.iterdir() if path.is_dir())
         directory_names = {path.name for path in skill_dirs}
