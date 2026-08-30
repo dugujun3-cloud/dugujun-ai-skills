@@ -5,3 +5,8 @@ skills-lock.json
 
 __pycache__/
 *.py[cod]
+*.log
+*.zip
+.pytest_cache/
+build/
+dist/
