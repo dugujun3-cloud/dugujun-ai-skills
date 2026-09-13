@@ -1,0 +1,10 @@
+{"id":"P001","prompt":"纵向研究英伟达如何形成今天的能力，再横向比较最相关的对手并判断三条未来路径。","should_trigger":true,"expected_mode":"apply","reason":"纵横研究"}
+{"id":"P002","prompt":"研究这个技术的历史转折、路径依赖、竞品差异和预警信号。","should_trigger":true,"expected_mode":"apply","reason":"历史与未来路径"}
+{"id":"P003","prompt":"做一份有一手来源和统一维度的 15000 字行业深度报告。","should_trigger":true,"expected_mode":"apply","reason":"长篇证据研究"}
+{"id":"N001","prompt":"这条统计数据是真的吗？","should_trigger":false,"expected_mode":"exclude","reason":"单条核查归 claim auditor"}
+{"id":"N002","prompt":"用三句话总结这个网页。","should_trigger":false,"expected_mode":"exclude","reason":"快速摘要"}
+{"id":"N003","prompt":"法国首都是哪里？","should_trigger":false,"expected_mode":"exclude","reason":"事实问答"}
+{"id":"A001","prompt":"比较三款手机，帮我决定今天买哪个。","should_trigger":false,"expected_mode":"exclude","reason":"即时购买建议不一定需深度研究"}
+{"id":"A002","prompt":"核查这份方案是否把相关性当成因果。","should_trigger":false,"expected_mode":"exclude","reason":"归 claim-evidence-auditor"}
+{"id":"R001","prompt":"研究一家公司早期技术选择如何变成今天的护城河和包袱。","should_trigger":true,"expected_mode":"apply","reason":"应形成有证据时间线而非公司史堆砌"}
+{"id":"R002","prompt":"为什么用户选择 A 又放弃 A 转向 B？请统一维度比较。","should_trigger":true,"expected_mode":"apply","reason":"应解释比较对象选择和用户机制"}

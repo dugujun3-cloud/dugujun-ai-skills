@@ -1,0 +1,6 @@
+interface:
+  display_name: "独孤菌深度研究"
+  short_description: "以证据、时间线和统一比较框架完成可续跑的深度研究"
+  default_prompt: "Use $dugujun-deep-research to research this topic with traceable evidence and a longitudinal-horizontal framework when appropriate."
+policy:
+  allow_implicit_invocation: true
