@@ -1,0 +1,10 @@
+{"id":"P001","prompt":"核查‘远程办公一定降低效率’这个说法，我能信到什么程度？","should_trigger":true,"expected_mode":"apply","reason":"事实与推理核查"}
+{"id":"P002","prompt":"这组增长数据能否证明新功能导致了留存提升？","should_trigger":true,"expected_mode":"apply","reason":"因果链审计"}
+{"id":"P003","prompt":"请联网查这个方案引用的数据和完整上下文。","should_trigger":true,"expected_mode":"apply","reason":"来源核查"}
+{"id":"N001","prompt":"研究生成式 AI 行业未来十年的竞争格局。","should_trigger":false,"expected_mode":"exclude","reason":"开放研究归 deep-research"}
+{"id":"N002","prompt":"帮我把这段话写得更有说服力。","should_trigger":false,"expected_mode":"exclude","reason":"文案改写"}
+{"id":"N003","prompt":"review 这个 PR 的代码。","should_trigger":false,"expected_mode":"exclude","reason":"代码审查"}
+{"id":"A001","prompt":"把我的选择做一次正反钢人论证。","should_trigger":false,"expected_mode":"exclude","reason":"归 two-sided-steelman"}
+{"id":"A002","prompt":"这份表的数据质量能不能用于决策？","should_trigger":false,"expected_mode":"exclude","reason":"结构化数据质量归 data analytics"}
+{"id":"R001","prompt":"有人说样本里 80% 用户喜欢，所以所有用户都喜欢，核查一下。","should_trigger":true,"expected_mode":"apply","reason":"应同时审样本与外推"}
+{"id":"R002","prompt":"这篇方案把相关性写成因果了吗？","should_trigger":true,"expected_mode":"apply","reason":"应指出替代解释与成立条件"}

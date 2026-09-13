@@ -1,0 +1,7 @@
+interface:
+  display_name: "知识资产产品化"
+  short_description: "把已有的判断、案例、方法和模板组装成可交付的知识产品"
+  default_prompt: "Use $knowledge-product-builder to assemble this material into a deliverable knowledge product."
+
+policy:
+  allow_implicit_invocation: true

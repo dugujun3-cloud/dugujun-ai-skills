@@ -1,0 +1,6 @@
+interface:
+  display_name: "说法与证据审计"
+  short_description: "核查事实来源与上下文，并检查事实是否真的支持结论"
+  default_prompt: "Use $claim-evidence-auditor to verify this claim and audit its reasoning chain."
+policy:
+  allow_implicit_invocation: true
