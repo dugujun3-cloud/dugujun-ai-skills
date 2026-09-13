@@ -16,7 +16,7 @@
 | [retention-ltv-diagnostic-starter](skills/retention-ltv-diagnostic-starter/) | Stable | 复购、留存、观察窗口价值与实验诊断 | 构建审计 |
 | [membership-activity-roi-checker](skills/membership-activity-roi-checker/) | Stable | 会员活动增量 ROI 与预算决策 | 已对齐 |
 | [ai-delivery-over-chat](skills/ai-delivery-over-chat/) | Stable | 把“陪聊式 AI”推进成可交付闭环 | 已对齐 |
-| [dugujun-account-analysis](skills/dugujun-account-analysis/) | Beta | 内容账号数据分析、归因和实验计划 | 待同步审计 |
+| [dugujun-account-analysis](skills/dugujun-account-analysis/) | Beta | 内容账号数据分析、归因和实验计划 | 已对齐 |
 | [dugujun-solo-business-system](skills/dugujun-solo-business-system/) | Beta | 一人公司定位、验证、交付、定价和获客 | 待同步审计 |
 | [getnote-blogger-batch-import](skills/getnote-blogger-batch-import/) | Beta | 得到大脑博主内容的可恢复批量导入 | 待同步审计 |
 | [expertise-to-tool](skills/expertise-to-tool/) | Beta | 把领域判断共创成单文件 HTML 工具 | 真源待恢复 |

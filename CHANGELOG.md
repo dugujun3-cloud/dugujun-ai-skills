@@ -16,6 +16,7 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 
 - Reframed the README as a public product catalog and trusted installation entrypoint.
 - Shortened the `user-operations-playbook` discovery description, preserved implicit invocation, and marked its public source current after release validation.
+- Marked `dugujun-account-analysis` public source current after backporting its sanitized environment-variable boundary to the local canonical source and adding a refusal regression test.
 
 ### Not changed
 
