@@ -1,0 +1,7 @@
+interface:
+  display_name: "多 Agent 分工协作协议"
+  short_description: "在多 AI 工具间划定职责、路由意图、移交工作并防止越界"
+  default_prompt: "Use $multi-agent-division-playbook to define who owns what, route this request, and keep cross-boundary work declared."
+
+policy:
+  allow_implicit_invocation: true

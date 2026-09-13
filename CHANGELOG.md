@@ -11,6 +11,7 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 - GitHub Actions validation for pull requests and main.
 - Security, contribution, Issue and Pull Request guidance.
 - `user-operations-playbook` lifecycle and conversion adaptation reference with upstream MIT attribution.
+- `multi-agent-division-playbook`, a **distillation** rather than a mirror: authored from internal operating rules by replacing product names with semantic role slots and private paths with abstract namespaces. No local file corresponds to it one-to-one, so upstream changes require re-distillation rather than a file-level sync — see its `references/provenance.md`.
 
 ### Changed
 
