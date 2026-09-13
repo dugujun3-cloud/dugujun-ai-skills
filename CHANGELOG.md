@@ -11,6 +11,7 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 - GitHub Actions validation for pull requests and main.
 - Security, contribution, Issue and Pull Request guidance.
 - `user-operations-playbook` lifecycle and conversion adaptation reference with upstream MIT attribution.
+- `dugujun-deep-research` and `claim-evidence-auditor`, published verbatim from their canonical sources. They are released as a linked pair: each references the other, so publishing either alone would leave a dangling reference. Their `references/source-map.md` files record the originating prompts and the original design decisions added on top.
 
 ### Changed
 
