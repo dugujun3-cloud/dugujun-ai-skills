@@ -1,0 +1,7 @@
+interface:
+  display_name: "一人公司经营复盘"
+  short_description: "固定周/月节奏的经营复盘：指标对比、决策回看与下周期候选动作"
+  default_prompt: "Use $solo-business-review to run this period's business review."
+
+policy:
+  allow_implicit_invocation: true

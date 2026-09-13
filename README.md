@@ -22,6 +22,9 @@
 | [expertise-to-tool](skills/expertise-to-tool/) | Beta | 把领域判断共创成单文件 HTML 工具 | 真源待恢复 |
 | [diagnostic-product-builder](skills/diagnostic-product-builder/) | Beta | 把方法做成自测、校准和手册三层产品 | 真源待恢复 |
 | [multi-agent-division-playbook](skills/multi-agent-division-playbook/) | Beta | 在多 AI 工具间划分职责、路由意图、跨边界移交并防止越界 | 已对齐 |
+| [pre-publish-polish-review](skills/pre-publish-polish-review/) | Beta | 中文内容发布前的三遍审校与打分 | 已对齐 |
+| [solo-business-review](skills/solo-business-review/) | Beta | 一人公司的周期经营复盘 | 已对齐 |
+| [knowledge-product-builder](skills/knowledge-product-builder/) | Beta | 把知识与方法组装成可交付的知识产品 | 已对齐 |
 
 完整机器可读状态见 [`skills-manifest.json`](skills-manifest.json)。
 

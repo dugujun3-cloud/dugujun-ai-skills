@@ -1,0 +1,7 @@
+interface:
+  display_name: "发布前审校"
+  short_description: "中文内容发布前的三遍审校：保真、去 AI 味、排版与评分"
+  default_prompt: "Use $pre-publish-polish-review to review this draft before publishing without changing its meaning."
+
+policy:
+  allow_implicit_invocation: true
