@@ -20,6 +20,7 @@
 | [dugujun-solo-business-system](skills/dugujun-solo-business-system/) | Beta | 一人公司定位、验证、交付、定价和获客 | 待同步审计 |
 | [getnote-blogger-batch-import](skills/getnote-blogger-batch-import/) | Beta | 得到大脑博主内容的可恢复批量导入 | 待同步审计 |
 | [field-before-effort](skills/field-before-effort/) | Beta | 先判场再努力：合法换池、舍小取大，不鸡血不灰产 | 已对齐 |
+| [portrait-pose-meizi](skills/portrait-pose-meizi/) | Beta | 按转、弯、顺、露写改诊断 AI 人像姿势提示词，默认只出文字 | 已对齐 |
 | [expertise-to-tool](skills/expertise-to-tool/) | Beta | 把领域判断共创成单文件 HTML 工具 | 真源待恢复 |
 | [diagnostic-product-builder](skills/diagnostic-product-builder/) | Beta | 把方法做成自测、校准和手册三层产品 | 真源待恢复 |
 | [dugujun-deep-research](skills/dugujun-deep-research/) | Beta | 有来源、可续跑的深度研究，含纵向历史 × 横向对比模式 | 已对齐 |
@@ -55,6 +56,7 @@ npx skills add dugujun3-cloud/dugujun-ai-skills@user-operations-playbook
 npx skills add dugujun3-cloud/dugujun-ai-skills@ai-work-bootstrap
 npx skills add dugujun3-cloud/dugujun-ai-skills@ai-interview-copilot
 npx skills add dugujun3-cloud/dugujun-ai-skills@field-before-effort
+npx skills add dugujun3-cloud/dugujun-ai-skills@portrait-pose-meizi
 ```
 
 如需全局安装或指定宿主，请使用 `skills` CLI 支持的 `-g` / `-a` 参数。不同 Agent 对 Skills 的发现、权限和工具支持可能不同，安装成功不等于所有外部依赖已经配置。
