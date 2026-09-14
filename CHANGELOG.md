@@ -6,6 +6,7 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 
 ### Added
 
+- `field-before-effort`：普通人决策顺序（场先于功），从公开讨论蒸馏，去掉违法/偏激路径。
 - Machine-readable `skills-manifest.json` with maturity and public-source status.
 - Dependency-free repository validator and regression tests.
 - GitHub Actions validation for pull requests and main.
