@@ -6,6 +6,7 @@ All notable public-repository changes are recorded here. Skill behavior changes 
 
 ### Added
 
+- `portrait-pose-meizi`：人像美姿提示词。把摄影破面口诀（转、弯、顺、露）写成可安装的姿势提示词工作流，默认只出文字、不主动生图。
 - `field-before-effort`：普通人决策顺序（场先于功），从公开讨论蒸馏，去掉违法/偏激路径。
 - Machine-readable `skills-manifest.json` with maturity and public-source status.
 - Dependency-free repository validator and regression tests.
